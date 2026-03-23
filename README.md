@@ -1,6 +1,16 @@
 # ROS2 Başlangıç Seviyesinden İleri Seviyeye
 (ROS2 From Beginner To Advanced Level)
 
+
+## Ön Koşullar (Prerequisites)
+
+OS: Tercihen **Ubuntu 22.04** 
+
+ROS2 Versiyonu: Tercihen **ROS2 Humble**
+
+
+
+
 ##  **ROS2 AKIŞ ŞEMASI (ROS2 FLOW CHART)** 
 
 
@@ -122,6 +132,8 @@ Robotun:
 
 **joint** = parçaları bağlayan şey
 
+**"Yazdığınız URDF'i kontrol etmek için check_urdf <dosya_adı>.urdf komutunu kullanabilirsiniz."**
+
 ## 4. Launch Dosyası
 
 Örnek:
@@ -132,7 +144,7 @@ nano launch/display.launch.py
 ROS'ta tek tek komut yazmak yerine tek tuşla her şeyi başlatma amacı güdüyoruz. Bu yüzden Launch dosyaları kullanılır.
 
 ## 5. Build (Derleme)
-Örnek:
+Örnek: (Python için)
 ```sh
 colcon build --symlink-install
 ```
@@ -146,7 +158,7 @@ ROS2'nin build tool'u.
 
 **--symlink-install nedir?**
 
-Kod değiştirince tekrar build yapmamıza gerek kalmaz.
+Kod değiştirince tekrar build yapmamıza gerek kalmaz. Python için geçerlidir, C++ için geçerli değildir!
 
 
 ## 6. Source Komutu
@@ -182,4 +194,9 @@ ros2 launch my_robot_description display.launch.py
 
 ROS Ezberlenmez → **kurulur + bozulur + düzeltilir**
 
+Soru ve geri dönütleriniz için:
 
+<div align="center">
+  <a href="https://linkedin.com/in/azatkaya1">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
