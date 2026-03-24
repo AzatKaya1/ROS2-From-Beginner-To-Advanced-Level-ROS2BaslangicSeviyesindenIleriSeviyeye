@@ -39,7 +39,7 @@ Bir ROS2 projesinde her zaman bu sıra geçerlidir. **Adımları atlama!**
 
 **Node (Düğüm) Nedir?**
 
-ROS2'de çalışan her bir program **Node**'dur. Kamera, lidar, robot kontrolü, motor kontrolü - bunların her biri ayrı Node'dur. Burada ROS2, Node'ların birbirleriyle konuştuğu sistemdir. İyi bir Node **tek bir şey** gerçekleştirir!
+ROS2'de çalışan her bir program **Node**'dur. Kamera, lidar, robot kontrolü, motor kontrolü... Bunların her biri ayrı Node'dur. Burada ROS2, Node'ların birbirleriyle konuştuğu sistemdir. İyi bir Node **tek bir şey** gerçekleştirir!
 
 Node listeleme:
 ```bash
@@ -157,7 +157,7 @@ ve **BOOOM!** C++ dilinde konuşturduğumuz terminalde, Python kodlama diliyle b
 <br>
 
 
-## Adım Adım Kurulum
+# Adım Adım Kurulum
 
  1. Çalışma Alanı (Workspace) Oluşturma 
  2. Paket Oluşturma 
